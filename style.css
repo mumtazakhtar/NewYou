@@ -1,0 +1,59 @@
+.navbar {
+  display: flex;
+  background-color: rgb(80, 78, 78);
+}
+.logo {
+  margin-right: 200px;
+}
+.logo_img {
+  width: 100px;
+  height: 100px;
+}
+li {
+  list-style: none;
+  display: inline;
+  margin: 38px;
+}
+a {
+  text-decoration: none;
+}
+.nav {
+  color: white;
+  margin-top: 20px;
+  font-size: 20px;
+}
+/* banner */
+.banner {
+  background-image: url(images/pexels-arina-krasnikova-6663368.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+}
+
+.banner h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.banner p {
+  font-size: 20px;
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  text-align: center;
+}
+.btn-flat {
+  color: white;
+  padding: 12px 24px;
+  border-radius: 25%;
+  background: #e022aa;
+  transition: background 0.3s ease;
+  margin-left: 600px;
+}
+.btn-flat:hover {
+  background-color: rgb(80, 78, 78) ;
+}
