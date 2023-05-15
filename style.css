@@ -29,6 +29,7 @@ a {
   display: inline;
   margin: 38px;
 }
+
 /* banner */
 .banner {
   background-image: url(images/pexels-arina-krasnikova-6663368.jpg);
@@ -124,7 +125,6 @@ h2, h1 {
 .highlights p {
   margin: 20px;
   line-height: 26px;
-
 }
 
 /* footer */
