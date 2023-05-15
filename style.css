@@ -164,6 +164,9 @@ a {
 
 /* Media Queries */
 @media only screen and (max-width: 600px) {
+  html {
+    font-family: 'Times New Roman', Times, serif;
+  }
   .nav li {
     display: inline;
     margin: 4px;
