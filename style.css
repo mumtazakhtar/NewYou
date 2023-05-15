@@ -3,6 +3,10 @@ html {
   font-family: cursive;
 }
 
+h2, h1 {
+  text-align: center;
+}
+
 .navbar {
   display: flex;
   background-color: rgb(80, 78, 78);
@@ -66,9 +70,6 @@ a {
   background-color: rgb(80, 78, 78) ;
 }
 
-h2, h1 {
-  text-align: center;
-}
 
 /* about us */
 .about {
