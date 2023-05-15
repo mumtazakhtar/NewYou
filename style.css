@@ -54,10 +54,10 @@ a {
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   text-align: center;
 }
-.btn-flat {
+.btn {
   color: white;
-  padding: 12px 24px;
-  border-radius: 25%;
+  padding: 12px;
+  border-radius: 25px;
   background: #e022aa;
   transition: background 0.3s ease;
   margin-left: 600px;
@@ -79,6 +79,7 @@ h2, h1 {
 /* services */
 .services-card {
   margin-left: 80px;
+  margin-bottom: 32px;
 }
 
 .service-card {
@@ -137,12 +138,56 @@ h2, h1 {
   font-size: small;
   justify-content: space-between;
 }
+.footer-service{
+  text-align: left;
+}
 .footer li {
   list-style: none;
+}
+.footer-links {
+  margin-top: 4px;
 }
 .footer-links a {
   color: black;
   text-decoration: none;
   font-size: 24px;
   padding: 0px 10px;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 600px) {
+  .nav li {
+    display: inline;
+    margin: 4px;
+    font-size: 14px;
+  }
+  .logo {
+    margin: 0px;
+  }
+  .banner h1 {
+    font-size: 18px;
+  }
+  .btn {
+    margin-left: 200px;
+  }
+  h1 {
+    font-size: 22px;
+  }
+  p {
+    font-size: 12px;
+  }
+  .highlights img {
+    width: 400px;
+    height: 200px;
+  }
+  .footer-links a{
+    font-size: 12px;
+  }
+  .footer{
+    font-size: 8px;
+  }
+  .footer img {
+    width: 20px;
+  }
+
 }
