@@ -159,8 +159,8 @@ a {
 @media only screen and (max-width: 600px) {
   .nav li {
     display: inline;
-    margin: 4px;
-    font-size: 14px;
+    margin: 2px;
+    font-size: 8px;
   }
   .logo {
     margin: 0px;
@@ -168,7 +168,7 @@ a {
   .banner h1 {
     font-size: 18px;
   }
-  .btn {
+  .btn-round {
     margin-left: 200px;
   }
   h1 {
@@ -189,6 +189,9 @@ a {
   }
   .footer img {
     width: 20px;
+  }
+  .services-card {
+    margin-left: 0px;
   }
 
 }
