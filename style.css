@@ -149,6 +149,9 @@ a {
 .footer-service{
   text-align: left;
 }
+.footer-service h2 {
+  text-align: left;
+}
 .footer li {
   list-style: none;
 }
@@ -161,6 +164,16 @@ a {
   font-size: 24px;
   padding: 0px 10px;
 }
+.footer-end p{
+  text-align: center;
+  background: #F4F4F4;
+  margin: 0;
+  padding-top: 26px;
+}
+.footer-end a {
+  color: black;
+}
+
 
 /* Media Queries */
 @media only screen and (max-width: 600px) {
